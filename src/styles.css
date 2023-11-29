@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'NeoSansArabic';
+    font-weight: 200;
+    src: url('./assets/fonts/NeoSansArabicLight.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'NeoSansArabic';
+    font-weight: 500;
+    src: url('./assets/fonts/NeoSansArabic.ttf') format('truetype');
+  }
+  
+  
+  @font-face {
+    font-family: 'NeoSansArabic';
+    font-weight: 700;
+    src: url('./assets/fonts/NeoSansArabicMedium.ttf') format('truetype');
+  }
+  
+  
+  body {
+    font-family: 'NeoSansArabic', sans-serif;
+  }
+  
+  
+  body{
+    background-color: #F3F5F7;
+    margin: 4.75em 8.56em  0 2.06em;
+    padding: 0;
+    direction: rtl;
+  }
+  
+  button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover{
+    transform: scale(1.1);
+  }

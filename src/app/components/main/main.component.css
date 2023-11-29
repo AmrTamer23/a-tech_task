@@ -1,0 +1,46 @@
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#chart-ticket{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+   
+}
+
+.app-chart{
+    flex-grow: 1;
+    flex-basis: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.chart-ticket{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.ticket{
+    background-image: url("../../../assets/ticket.png");
+
+}
+    /* Initially hide the tooltip */
+  .tooltip {
+    display: none;
+  }
+  
+  .del:hover .tooltip,
+  .Mbtn:hover .tooltip {
+      display: block;
+  }
+  

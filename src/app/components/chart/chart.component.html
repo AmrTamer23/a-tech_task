@@ -1,0 +1,46 @@
+<div class="bg-white p-5 border-2 rounded-lg">
+  <span class="flex justify-between items-center">
+    <span class="flex flex-col gap-1">
+      <h3 class="text-lg">إحصائيات إستخدام القسيمة</h3>
+      <span class="flex gap-3 items-center cursor-pointer">
+        <h5 class="text-black/40">05 يوليو , 2023 - 05 أغسطس , 2023</h5>
+        <svg
+          width="8"
+          height="5"
+          viewBox="0 0 8 5"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.21882 0.651932L4.10941 3.67981L1 0.651932"
+            stroke="#92A1AD"
+            stroke-width="1.20977"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+    </span>
+    <button
+      class="flex gap-2 items-center w-13 h-9 p-2 border-[1px] rounded-lg"
+    >
+      <p>سنوياً</p>
+      <svg
+        width="8"
+        height="5"
+        viewBox="0 0 8 5"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.21882 0.651932L4.10941 3.67981L1 0.651932"
+          stroke="#92A1AD"
+          stroke-width="1.20977"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+  </span>
+  <canvas id="MyChart" class="inline min-w-full">{{ chart }}</canvas>
+</div>

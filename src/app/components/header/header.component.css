@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #backIcon {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  #backBtn {
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #e7eaed;
+    border: none;
+    padding: 0.5rem;
+  }
+  
+  #backBtn:hover {
+    background: #d5d8db;
+  }
+  
+  span {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  #editIcon {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+  }
+  
+  #editBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    font-weight: 300;
+    gap: 0.6rem;
+    width: 7rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.4rem;
+    border: 2.5px solid hsl(180, 2%, 92%);
+    background: #f9f9f9;
+  }
+  
